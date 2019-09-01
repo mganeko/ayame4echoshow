@@ -21,13 +21,16 @@
 
 - 送信側
   - [sendonly.html](sendonly.html) をブラウザで開く
+    - ルームを指定する場合は [sendonly.html?roomId=your_room](sendonly.html?roomId=your_room) 
   - 「接続」ボタンをクリック
 - 受信側
   - [recvonly.html](recvonly.html) をブラウザで開く
-  - 「接続」ボタンをクリック◊
-- EchoShow5で受信
-  - Firefoxで[recv4echoshow.html](recv4echoshow.html) を開く
+    - ルームを指定する場合は [recvonly.html?roomId=your_room](recvonly.html?roomId=your_room) 
   - 「接続」ボタンをクリック
+- EchoShow5で受信
+  - Firefoxで [recv4echoshow.html](recv4echoshow.html) を開く
+    - ルームを指定する場合は [recv4echoshow.html?roomId=your_room](recv4echoshow.html?roomId=your_room) 
+  - 「接続」ボタンをタッチ
 
 ## ライセンス
 
