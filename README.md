@@ -11,6 +11,16 @@
 
 ## 利用方法
 
+- 送信側
+  - [sendonly.html](sendonly.html) をブラウザで開く
+  - 「接続」ボタンをクリック
+- 受信側
+  - [recvonly.html](recvonly.html) をブラウザで開く
+  - 「接続」ボタンをクリック◊
+- EchoShow5で受信
+  - Firefoxで[recv4echoshow.html](recv4echoshow.html) を開く
+  - 「接続」ボタンをクリック
+
 ## ライセンス
 
 ayame4echoshowはApache License 2.0で公開しています。
