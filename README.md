@@ -2,6 +2,14 @@
 
 [OpenAyame/ayame-web-sdk](https://github.com/OpenAyame/ayame-web-sdk) のサンプル集[OpenAyame/ayame-web-sdk-samples](https://github.com/OpenAyame/ayame-web-sdk-samples)をベースに、EchoShow5のFirefoxで表示できるように変更したものです。
 
+### レポジトリ
+
+- https://github.com/mganeko/ayame4echoshow
+
+### GitHub Pages
+
+- https://mganeko.github.io/ayame4echoshow/
+
 ## 変更内容
 
 - ayame.js --> ayame4echoshow.js ... sdpSemantics: 'unified-plan' を明示的に指定
