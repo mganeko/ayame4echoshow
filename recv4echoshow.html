@@ -23,6 +23,7 @@
   </div>
   <div style="float:left;">
     <video id="remote-video" controls="1" autoplay="" style="width: 320px; height: 240px; border: 1px solid black;"></video>
+    <button onclick="videoFullScreen()">Full Screen</button>
   </div>
   <!--
   <script src="https://cdn.jsdelivr.net/npm/@open-ayame/ayame-web-sdk@19.8.0/dist/ayame.min.js"></script>
@@ -37,7 +38,7 @@
     options.clientId = clientId ? clientId : options.clientId;
     options.video.direction = 'recvonly';
     options.audio.direction = 'recvonly';
-    //options.video.codec = 'VP8;'
+    //options.video.codec = 'VP8';
     const conn = Ayame.connection(signalingUrl, roomId, options, true);
     const startConn = async () => {
       await conn.connect(null, { key: signalingKey });
@@ -49,6 +50,10 @@
     };
     document.querySelector("#roomIdInput").value = roomId;
     document.querySelector("#clientIdInput").value = options.clientId;
+
+    function videoFullScreen() {
+      document.getElementById('remote-video').requestFullscreen();
+    }
   </script>
 </body>
 
