@@ -37,7 +37,7 @@
     options.clientId = clientId ? clientId : options.clientId;
     options.video.direction = 'recvonly';
     options.audio.direction = 'recvonly';
-    options.video.codec = 'VP8';
+    //options.video.codec = 'VP8';
     const conn = Ayame.connection(signalingUrl, roomId, options, true);
     const startConn = async () => {
       await conn.connect(null, { key: signalingKey });
